@@ -1,8 +1,10 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "libs"))
 import heapq
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from matplotlib.widgets import TextBox, Button
-import sys
+
 
 # ==========================================
 # 1. DỮ LIỆU & LOGIC A* (Giữ nguyên)
